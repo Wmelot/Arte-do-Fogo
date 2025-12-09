@@ -25,7 +25,11 @@ const Contact = () => {
 
     return (
         <section id="contact" className="py-20 bg-brand-charcoal border-t border-white/5">
-            <div className="container-custom grid md:grid-cols-2 gap-16">
+            <div className="container-custom grid md:grid-cols-2 gap-16 relative z-10">
+                {/* Section Watermark */}
+                <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-0 opacity-[0.03] pointer-events-none">
+                    <img src="/img/logo-vector.png" alt="" className="w-[600px] max-w-[90%] object-contain grayscale invert brightness-200" />
+                </div>
                 {/* Contact Info */}
                 <div>
                     <span className="text-brand-orange font-bold tracking-widest uppercase text-sm block mb-2">Fale Conosco</span>

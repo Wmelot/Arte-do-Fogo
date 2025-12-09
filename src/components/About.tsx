@@ -8,7 +8,11 @@ const About = () => {
             {/* Background Decorative Elements */}
             <div className="absolute top-0 right-0 w-1/3 h-full bg-brand-orange/5 blur-[120px] rounded-full pointing-events-none"></div>
 
-            <div className="container-custom">
+            <div className="container-custom relative">
+                {/* Section Watermark */}
+                <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-0 opacity-[0.03] pointer-events-none">
+                    <img src="/img/logo-vector.png" alt="" className="w-[600px] max-w-[90%] object-contain grayscale invert brightness-200" />
+                </div>
                 {/* Section Header */}
                 <motion.div
                     initial={{ opacity: 0, y: 20 }}
