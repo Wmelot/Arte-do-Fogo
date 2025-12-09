@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Instagram, X, ChevronLeft, ChevronRight, Play } from 'lucide-react';
-import { galleryData, GalleryItem } from '../data/galleryData';
+import { galleryData, type GalleryItem } from '../data/galleryData';
 
 const Gallery = () => {
     const categories = Object.keys(galleryData);
@@ -54,8 +54,8 @@ const Gallery = () => {
                             key={category}
                             onClick={() => setActiveTab(category)}
                             className={`px-6 py-2 rounded-full text-sm font-bold tracking-wider transition-all duration-300 border ${activeTab === category
-                                    ? 'bg-brand-orange text-white border-brand-orange shadow-[0_0_20px_rgba(255,107,0,0.3)]'
-                                    : 'bg-transparent text-gray-400 border-white/10 hover:border-brand-orange/50 hover:text-white'
+                                ? 'bg-brand-orange text-white border-brand-orange shadow-[0_0_20px_rgba(255,107,0,0.3)]'
+                                : 'bg-transparent text-gray-400 border-white/10 hover:border-brand-orange/50 hover:text-white'
                                 }`}
                         >
                             {category}
