@@ -26,7 +26,7 @@ const Hero = () => {
                     </span>
                     <h1 className="text-5xl md:text-7xl lg:text-8xl font-heading font-bold mb-6 leading-tight">
                         BBQ - Arte do Fogo <br />
-                        <span className="text-transparent bg-clip-text bg-gradient-to-r from-brand-orange to-brand-gold">Eventos de Buffet de Fogo</span>
+                        <span className="text-transparent bg-clip-text bg-gradient-to-r from-brand-orange to-brand-gold text-[0.7em]">Eventos e Buffet de fogo</span>
                     </h1>
                     <p className="max-w-2xl mx-auto text-gray-300 text-lg md:text-xl mb-10 leading-relaxed font-light">
                         Especialistas em <strong>American BBQ</strong> e <strong>Fogo de Chão</strong>.
