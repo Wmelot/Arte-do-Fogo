@@ -73,7 +73,7 @@ const About = () => {
                     >
                         <div className="aspect-[3/4] rounded-sm overflow-hidden relative group">
                             <img
-                                src="/img/andre-dibai.jpg"
+                                src="/img/andre-dibai-new.jpg"
                                 alt="André Dibai"
                                 className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-700"
                             />
