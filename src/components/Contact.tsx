@@ -44,8 +44,8 @@ const Contact = () => {
                             </div>
                             <div>
                                 <h4 className="font-heading font-bold text-lg text-white">Telefones</h4>
-                                <p className="text-gray-400 hover:text-brand-orange transition-colors"><a href="tel:+5531992760646">+55 31 99276-0646</a></p>
-                                <p className="text-gray-400 hover:text-brand-orange transition-colors"><a href="tel:+5531993465023">+55 31 99346-5023</a></p>
+                                <p className="text-gray-400 hover:text-brand-orange transition-colors"><a href="tel:+5531992760646">(31) 99276-0646</a></p>
+                                <p className="text-gray-400 hover:text-brand-orange transition-colors"><a href="tel:+5531993465023">(31) 99346-5023</a></p>
                             </div>
                         </div>
 
