@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { Menu, X, Flame } from 'lucide-react';
+import { Menu, X } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 
 const Navbar = () => {
@@ -28,10 +28,7 @@ const Navbar = () => {
             <div className="container-custom flex justify-between items-center">
                 {/* Logo */}
                 <a href="#" className="flex items-center gap-2 group">
-                    <div className="relative">
-                        <Flame className="w-8 h-8 text-brand-orange group-hover:text-brand-gold transition-colors duration-300" />
-                        <div className="absolute inset-0 bg-brand-orange/20 blur-md rounded-full group-hover:bg-brand-gold/30 transition-colors duration-300"></div>
-                    </div>
+                    <img src="/img/logo-vector.png" alt="Logo Arte do Fogo" className="w-12 h-12 object-contain" />
                     <div className="flex flex-col">
                         <span className="font-heading text-xl font-bold tracking-wider leading-none text-white">ARTE DO FOGO</span>
                         <span className="text-[0.6rem] tracking-[0.2em] text-gray-400 group-hover:text-brand-orange transition-colors duration-300">BBQ & EXPERIENCE</span>

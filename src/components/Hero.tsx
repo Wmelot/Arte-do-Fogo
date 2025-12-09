@@ -15,6 +15,11 @@ const Hero = () => {
                 />
             </div>
 
+            {/* Logo Watermark */}
+            <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-10 opacity-5 pointer-events-none">
+                <img src="/img/logo-vector.png" alt="" className="w-[600px] max-w-[90vw] object-contain invert grayscale" />
+            </div>
+
             <div className="container-custom relative z-20 text-center px-4">
                 <motion.div
                     initial={{ opacity: 0, y: 30 }}
