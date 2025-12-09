@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { Menu, X, Flame } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 
@@ -20,6 +20,7 @@ const Navbar = () => {
         { name: 'Eventos', href: '#events' },
         { name: 'Galeria', href: '#gallery' },
         { name: 'Contato', href: '#contact' },
+        { name: 'Cardápio Básico', href: '#basic-menu' },
     ];
 
     return (

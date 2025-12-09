@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { motion } from 'framer-motion';
 import { ChevronDown, MessageCircle } from 'lucide-react';
 
@@ -25,8 +25,8 @@ const Hero = () => {
                         EST. 2018 &bull; BELO HORIZONTE
                     </span>
                     <h1 className="text-5xl md:text-7xl lg:text-8xl font-heading font-bold mb-6 leading-tight">
-                        A ARTE DO FOGO <br />
-                        <span className="text-transparent bg-clip-text bg-gradient-to-r from-brand-orange to-brand-gold">NO SEU EVENTO</span>
+                        BBQ - Arte do Fogo <br />
+                        <span className="text-transparent bg-clip-text bg-gradient-to-r from-brand-orange to-brand-gold">Eventos de Buffet de Fogo</span>
                     </h1>
                     <p className="max-w-2xl mx-auto text-gray-300 text-lg md:text-xl mb-10 leading-relaxed font-light">
                         Especialistas em <strong>American BBQ</strong> e <strong>Fogo de Chão</strong>.

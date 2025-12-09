@@ -1,5 +1,5 @@
 import React from 'react';
-import { Phone, Mail, Instagram, MapPin, MessageCircle } from 'lucide-react';
+import { Phone, Mail, MapPin, MessageCircle } from 'lucide-react';
 
 const Contact = () => {
     const [formData, setFormData] = React.useState({
@@ -16,7 +16,7 @@ const Contact = () => {
         const subject = `Solicitação de Orçamento - ${name}`;
         const body = `Nome: ${name}%0D%0ATelefone: ${phone}%0D%0ATipo de Evento: ${type}%0D%0AMensagem: ${message}`;
 
-        window.location.href = `mailto:andredibai.advocacia@gmail.com?subject=${encodeURIComponent(subject)}&body=${body}`;
+        window.location.href = `mailto:andredibai@gmail.com?subject=${encodeURIComponent(subject)}&body=${body}`;
     };
 
     const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>) => {
@@ -56,7 +56,7 @@ const Contact = () => {
                             <div>
                                 <h4 className="font-heading font-bold text-lg text-white">Email</h4>
                                 <p className="text-gray-400 hover:text-brand-orange transition-colors">
-                                    <a href="mailto:andredibai.advocacia@gmail.com">andredibai.advocacia@gmail.com</a>
+                                    <a href="mailto:andredibai@gmail.com">andredibai@gmail.com</a>
                                 </p>
                             </div>
                         </div>

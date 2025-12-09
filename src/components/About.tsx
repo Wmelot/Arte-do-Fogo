@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { motion } from 'framer-motion';
 import { Flame, ChefHat, Award } from 'lucide-react';
 
