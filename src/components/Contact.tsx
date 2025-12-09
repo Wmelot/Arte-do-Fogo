@@ -69,8 +69,9 @@ const Contact = () => {
                                 <h4 className="font-heading font-bold text-lg text-white">WhatsApp</h4>
                                 <p className="text-gray-400 text-sm mb-2">Clique para iniciar uma conversa:</p>
                                 <div className="flex gap-2">
-                                    <a href="https://wa.me/5531992760646" target="_blank" rel="noreferrer" className="px-4 py-2 bg-green-600 hover:bg-green-700 text-white text-sm font-bold rounded-sm transition-colors">
-                                        Falar com André
+                                    <a href="https://wa.me/5531992760646" target="_blank" rel="noreferrer" className="px-4 py-2 bg-green-600 hover:bg-green-700 text-white text-sm font-bold rounded-sm transition-colors flex items-center gap-2">
+                                        <MessageCircle className="w-4 h-4" />
+                                        Fale conosco
                                     </a>
                                 </div>
                             </div>
