@@ -1,6 +1,6 @@
 
 import { motion } from 'framer-motion';
-import { Flame, ChefHat, Award } from 'lucide-react';
+import { Flame, ChefHat, Award, Utensils } from 'lucide-react';
 
 const About = () => {
     return (
@@ -50,7 +50,10 @@ const About = () => {
                             {[
                                 { icon: <ChefHat className="w-8 h-8 text-brand-orange mb-3" />, label: "American BBQ" },
                                 { icon: <Flame className="w-8 h-8 text-brand-orange mb-3" />, label: "Fogo de Chão" },
-                                { icon: <Award className="w-8 h-8 text-brand-orange mb-3" />, label: "+10 Anos Exp." },
+                                { icon: <Utensils className="w-8 h-8 text-brand-orange mb-3" />, label: "Churrasco Tradicional" },
+                                { icon: <Award className="w-8 h-8 text-brand-orange mb-3" />, label: "Premium BBQ" },
+                                { icon: <Flame className="w-8 h-8 text-brand-orange mb-3" />, label: "Parrilla Argentina" },
+                                { icon: <ChefHat className="w-8 h-8 text-brand-orange mb-3" />, label: "Pit Smoker" },
                             ].map((item, index) => (
                                 <div key={index} className="flex flex-col items-start p-4 bg-white/5 rounded-sm border border-white/5 hover:border-brand-orange/30 transition-colors">
                                     {item.icon}
@@ -134,8 +137,11 @@ const About = () => {
                         <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
                             {[
                                 { icon: <ChefHat className="w-8 h-8 text-brand-orange mb-3" />, label: "Pit Smoker" },
-                                { icon: <Flame className="w-8 h-8 text-brand-orange mb-3" />, label: "Premium BBQ" },
-                                { icon: <Award className="w-8 h-8 text-brand-orange mb-3" />, label: "+15 Anos Exp." },
+                                { icon: <Award className="w-8 h-8 text-brand-orange mb-3" />, label: "Premium BBQ" },
+                                { icon: <Utensils className="w-8 h-8 text-brand-orange mb-3" />, label: "Churrasco Tradicional" },
+                                { icon: <ChefHat className="w-8 h-8 text-brand-orange mb-3" />, label: "American BBQ" },
+                                { icon: <Flame className="w-8 h-8 text-brand-orange mb-3" />, label: "Fogo de Chão" },
+                                { icon: <Flame className="w-8 h-8 text-brand-orange mb-3" />, label: "Parrilla Argentina" },
                             ].map((item, index) => (
                                 <div key={index} className="flex flex-col items-start p-4 bg-white/5 rounded-sm border border-white/5 hover:border-brand-orange/30 transition-colors">
                                     {item.icon}
